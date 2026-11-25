@@ -1,0 +1,12 @@
+{
+  "network": "bsc",
+  "rpc": "https://bsc-dataseed.bnbchain.org",
+  "chainId": 56,
+  "registry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+  "factory": "0x5E9A8861B911b24E1f1AD4D7ABDbcd54e78d5b2c",
+  "token": "0x9B8e9ec9406c21D7E30a5eFC721A595c546F2E3c",
+  "book": "0xD71334E71f43b6d0be110CAA96857d9277E8c6F5",
+  "pool": "0x407EbF4D25946086F0d2a88D56be0F6f6E387f8b",
+  "name": "配额曲线第二册",
+  "symbol": "QTB"
+}

@@ -1,0 +1,14 @@
+{
+  "network": "bsc",
+  "rpc": "https://bsc-dataseed.bnbchain.org",
+  "chainId": 56,
+  "registry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+  "factory": "0x08A7FB944d16a9f8cb7031e0D756d7B5Be13B87c",
+  "token": "0x69043d39ad5D8F2Bb5Bc16b913B0526E444bdB18",
+  "curve": "0xa298EA6d338a923e452A84A77a584852cD37308B",
+  "pool": "0x586AfadF10f101B8C7E2Fc0eee33103EC649f418",
+  "name": "配额曲线第一册",
+  "symbol": "QTA",
+  "createTx": "0xb13cfff563aecb21afa85befe760f710b4c7fd8c6883aa15a3acfa836952f2c2",
+  "deployTx": "0x7222bf0af1ba4f25288e7dbcba7d9ba0f8ad2361cf8c6733da7c4f2adfe13a33"
+}

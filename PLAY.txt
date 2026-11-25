@@ -1,0 +1,8 @@
+身份配额曲线
+
+./script/serve-curve.sh
+
+这一条命令启动柜台，只听 127.0.0.1:43123，页面在 /curve/。
+不拉起 anvil，不广播。
+册页是 deploy/book.json。部署说明在 README。
+需要本机已安装 Node。部署脚本另外需要 Foundry。

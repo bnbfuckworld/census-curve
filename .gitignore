@@ -1,0 +1,27 @@
+# Foundry
+cache/
+out/
+broadcast/
+/lib/
+
+# Web
+web/node_modules/
+web/.next/
+web/.local/
+web/tsconfig.tsbuildinfo
+node_modules/
+
+# Local rehearsal state
+deploy/seat.local.json
+
+# Server config and secrets: never commit
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+deploy/*.conf
+deploy/*.conf.example
+deploy/*.service
+deploy/*.service.example

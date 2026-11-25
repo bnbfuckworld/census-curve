@@ -1,0 +1,26 @@
+{
+  "name": "census-desk",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 43123 -H 127.0.0.1",
+    "build": "next build",
+    "start": "next start -p 43123 -H 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test:states": "node --experimental-strip-types --import ./lib/register-ts-ext.mjs --test lib/states.test.ts lib/ledgerLine.test.ts lib/server/record.test.ts lib/sign.test.ts lib/server/receipt.test.ts lib/server/calldata.test.ts lib/minCurve.test.ts lib/agentId.test.ts lib/seatPhase.test.ts"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.2.5",
+    "@fontsource/noto-sans-sc": "^5.2.5",
+    "@fontsource/space-grotesk": "^5.2.5",
+    "next": "^15.5.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.0"
+  }
+}
